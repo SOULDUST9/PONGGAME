@@ -1,0 +1,35 @@
+this file contains instructions on how the game works and a bit on the developement.
+
+this is a 2 player game based off of the original game called PONG, note that i did use some videos to understand how the code and techniques work but most of the code was developed by Sebastian Janezcek.
+also note that this code was writen for apple and tested for apple. instructions will be given in the terms of apple. but its similar for any other device
+
+
+
+INSTUCTIONS:
+
+first how to run the game. 
+go to ur terminal locate the folder where the file is stored 
+compile the PongGame.java file using 
+--> javac PongGame.java
+then once complied run it by typing 
+--> java PongGame
+
+the game should start and be brough to a new screen 
+
+
+
+GAME LOOP:
+
+for player 1 (left player) use W and S 
+for player 2 (right player) use the up and down arrows 
+
+as of now the game runs until it crash, so basically forever
+
+
+
+POSSIBLE FUTURE UPDATES: 
+
+Adding a end game feature 
+Adding a start screen or game-over screen.
+Implementing AI for single-player mode.
+Improving the ball movement physics for more realistic bounces.
